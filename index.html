@@ -1,51 +1,35 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>phklein.net</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="description" content="Persönliche Startseite von Philipp Klein">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,300,600" rel="stylesheet"  >
-
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+  <style>
+    .intro { margin-top: 25%; }
+    .intro h1 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+    .portrait { max-width: 25%; height: auto; }
+    @media (min-width: 550px) {
+      .intro h1 { font-size: 3.0rem; }
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <main class="container">
     <div class="row">
-      <div class="one-third column" style="margin-top: 25%">
-        <h4>Willkommen</h4>
+      <div class="one-third column intro">
+        <h1>Willkommen</h1>
         <p>Herzlich willkommen auf phklein.net.<br>
         Kontakt: <a href="mailto:mail@phklein.net">mail@phklein.net</a></p>
       </div>
-      <div class="two-thirds column" style="margin-top: 25%">
-      <p><img src="images/me-crop.jpg" style="max-width:25%"></p>
+      <div class="two-thirds column intro">
+        <p><img class="portrait" src="images/me-crop.jpg" width="480" height="480" alt="Rückansicht einer Person, die auf einer Anhöhe steht und über bewaldete Hügel in die Ferne blickt"></p>
+      </div>
     </div>
-    </div>
-  </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </main>
 </body>
 </html>
