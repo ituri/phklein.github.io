@@ -1,0 +1,15 @@
+/* Catppuccin Mocha */
+:root {
+  color-scheme: dark;
+  --font: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --muted: #6c7086;
+  --heading: #cba6f7;
+  --accent: #cba6f7;
+  --accent2: #89b4fa;
+  --accent3: #f9e2af;
+  --border: #313244;
+}
+
+.portrait { box-shadow: 0 0 0 4px #313244, 0 0 0 5px #cba6f7; }

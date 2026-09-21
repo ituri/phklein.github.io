@@ -1,0 +1,19 @@
+/* Monokai */
+:root {
+  color-scheme: dark;
+  --font: "Fira Code", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #1e1f1c;
+  --surface: #272822;
+  --chrome: #1e1f1c;
+  --fg: #f8f8f2;
+  --muted: #75715e;
+  --heading: #a6e22e;
+  --accent: #f92672;
+  --accent2: #a6e22e;
+  --accent3: #e6db74;
+  --border: #3e3d32;
+  --status: #a6e22e;
+  --status-fg: #272822;
+}
+
+a { color: #66d9ef; }

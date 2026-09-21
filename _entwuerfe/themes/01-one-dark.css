@@ -1,0 +1,18 @@
+/* One Dark */
+:root {
+  color-scheme: dark;
+  --font: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #21252b;
+  --surface: #282c34;
+  --chrome: #21252b;
+  --fg: #abb2bf;
+  --muted: #5c6370;
+  --heading: #61afef;
+  --accent: #61afef;
+  --accent2: #98c379;
+  --accent3: #e5c07b;
+  --border: #181a1f;
+  --red: #e06c75;
+  --yellow: #e5c07b;
+  --green: #98c379;
+}

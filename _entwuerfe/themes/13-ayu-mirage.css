@@ -1,0 +1,19 @@
+/* Ayu Mirage */
+:root {
+  color-scheme: dark;
+  --font: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #171b24;
+  --surface: #1f2430;
+  --chrome: #191e2a;
+  --fg: #cccac2;
+  --muted: #707a8c;
+  --heading: #ffcc66;
+  --accent: #5ccfe6;
+  --accent2: #ffcc66;
+  --accent3: #d5ff80;
+  --border: #101521;
+  --status: #ffcc66;
+  --status-fg: #1f2430;
+}
+
+a { color: #ffcc66; }

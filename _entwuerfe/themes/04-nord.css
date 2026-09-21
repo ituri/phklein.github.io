@@ -1,0 +1,16 @@
+/* Nord */
+:root {
+  color-scheme: dark;
+  --font: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #2e3440;
+  --fg: #d8dee9;
+  --muted: #616e88;
+  --heading: #88c0d0;
+  --accent: #88c0d0;
+  --accent2: #a3be8c;
+  --accent3: #ebcb8b;
+  --border: #3b4252;
+}
+
+[data-layout="plain"] .text { border-left: 2px solid #4c566a; padding-left: 1.4rem; }
+.portrait { box-shadow: 0 0 0 3px #3b4252; }

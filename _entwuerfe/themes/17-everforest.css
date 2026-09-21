@@ -1,0 +1,14 @@
+/* Everforest */
+:root {
+  color-scheme: dark;
+  --font: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #232a2e;
+  --surface: #2d353b;
+  --fg: #d3c6aa;
+  --muted: #859289;
+  --heading: #a7c080;
+  --accent: #a7c080;
+  --accent2: #7fbbb3;
+  --accent3: #dbbc7f;
+  --border: #3d484d;
+}

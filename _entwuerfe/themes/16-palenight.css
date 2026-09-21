@@ -1,0 +1,19 @@
+/* Material Palenight */
+:root {
+  color-scheme: dark;
+  --font: "Fira Code", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #1b1e2b;
+  --surface: #292d3e;
+  --chrome: #202331;
+  --fg: #a6accd;
+  --muted: #676e95;
+  --heading: #c792ea;
+  --accent: #c792ea;
+  --accent2: #c3e88d;
+  --accent3: #ffcb6b;
+  --border: #3a3f58;
+  --red: #f07178;
+  --yellow: #ffcb6b;
+  --green: #c3e88d;
+  --radius: 14px;
+}

@@ -1,0 +1,20 @@
+/* Tokyo Night */
+:root {
+  color-scheme: dark;
+  --font: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #16161e;
+  --surface: #1a1b26;
+  --chrome: #16161e;
+  --fg: #c0caf5;
+  --muted: #565f89;
+  --heading: #7aa2f7;
+  --accent: #7aa2f7;
+  --accent2: #9ece6a;
+  --accent3: #e0af68;
+  --border: #292e42;
+  --red: #f7768e;
+  --yellow: #e0af68;
+  --green: #9ece6a;
+}
+
+a { color: #7dcfff; }

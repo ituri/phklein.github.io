@@ -1,0 +1,15 @@
+/* Solarized Light */
+:root {
+  color-scheme: light;
+  --font: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #fdf6e3;
+  --fg: #657b83;
+  --muted: #93a1a1;
+  --heading: #cb4b16;
+  --accent: #cb4b16;
+  --accent2: #268bd2;
+  --accent3: #b58900;
+  --border: #eee8d5;
+}
+
+.portrait { box-shadow: 0 0 0 6px #eee8d5; }

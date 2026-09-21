@@ -1,0 +1,15 @@
+/* Catppuccin Latte */
+:root {
+  color-scheme: light;
+  --font: "Space Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #eff1f5;
+  --fg: #4c4f69;
+  --muted: #8c8fa1;
+  --heading: #8839ef;
+  --accent: #8839ef;
+  --accent2: #1e66f5;
+  --accent3: #df8e1d;
+  --border: #ccd0da;
+}
+
+.portrait { box-shadow: 0 0 0 4px #ccd0da, 0 0 0 5px #8839ef; }

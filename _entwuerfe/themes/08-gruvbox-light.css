@@ -1,0 +1,14 @@
+/* Gruvbox Light */
+:root {
+  color-scheme: light;
+  --font: "Space Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #f2e5bc;
+  --surface: #fbf1c7;
+  --fg: #3c3836;
+  --muted: #7c6f64;
+  --heading: #af3a03;
+  --accent: #af3a03;
+  --accent2: #076678;
+  --accent3: #b57614;
+  --border: #d5c4a1;
+}

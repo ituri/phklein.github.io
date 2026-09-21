@@ -1,0 +1,20 @@
+/* Synthwave '84 */
+:root {
+  color-scheme: dark;
+  --font: "Space Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #262335;
+  --fg: #ffffff;
+  --muted: #848bbd;
+  --heading: #ff7edb;
+  --accent: #ff7edb;
+  --accent2: #36f9f6;
+  --accent3: #fede5d;
+  --border: #495495;
+  --red: #fe4450;
+}
+
+html { background: linear-gradient(#1b1626 0%, #262335 50%, #4a2266 100%); background-attachment: fixed; }
+body::before { content: ""; position: fixed; left: -20%; right: -20%; bottom: 0; height: 38vh; z-index: -1; pointer-events: none; background: linear-gradient(to top, rgba(255,126,219,.28), transparent 70%), repeating-linear-gradient(90deg, rgba(255,126,219,.5) 0 1px, transparent 1px 70px), repeating-linear-gradient(0deg, rgba(54,249,246,.45) 0 1px, transparent 1px 34px); transform: perspective(260px) rotateX(58deg); transform-origin: bottom; }
+h1 { background: linear-gradient(90deg, #ff7edb, #36f9f6); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 10px rgba(255,126,219,.55)); }
+.portrait { box-shadow: 0 0 0 3px #ff7edb, 0 0 34px rgba(255,126,219,.65), 0 0 0 7px rgba(54,249,246,.5); }
+.fetchhead { text-shadow: 0 0 10px rgba(255,126,219,.7); }

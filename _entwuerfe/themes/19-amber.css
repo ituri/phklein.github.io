@@ -1,0 +1,27 @@
+/* Amber-Monitor */
+:root {
+  color-scheme: dark;
+  --font: "VT323", "Courier New", monospace;
+  --bg: #0a0600;
+  --surface: #140c00;
+  --chrome: #1d1200;
+  --fg: #ffb000;
+  --muted: #c98400;
+  --heading: #ffc94d;
+  --accent: #ffb000;
+  --accent2: #ffd06a;
+  --accent3: #ff8c1a;
+  --border: #5c3b00;
+  --red: #a86f00;
+  --yellow: #ffb000;
+  --green: #ffd06a;
+  --radius: 16px;
+  --glow: 0 0 5px rgba(255,176,0,.7), 0 0 16px rgba(255,140,0,.28);
+  --img-filter: grayscale(1) sepia(1) saturate(4.5) hue-rotate(-12deg) brightness(.95) contrast(1.15);
+}
+
+html { font-size: 19px; }
+body { padding: 1.5rem 1rem 4.5rem; }
+.cursor { box-shadow: 0 0 8px #ffb000; }
+body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 50; background: repeating-linear-gradient(to bottom, rgba(0,0,0,.22) 0, rgba(0,0,0,.22) 1px, transparent 1px, transparent 3px), radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,.7) 100%); }
+@media (prefers-reduced-motion: no-preference) { .screen { animation: flicker 5s infinite; } @keyframes flicker { 0%, 100% { opacity: 1; } 52% { opacity: .95; } 53% { opacity: .88; } 54% { opacity: 1; } } }

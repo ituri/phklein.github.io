@@ -1,0 +1,14 @@
+/* Gruvbox Dark */
+:root {
+  color-scheme: dark;
+  --font: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #1d2021;
+  --fg: #ebdbb2;
+  --muted: #928374;
+  --heading: #fabd2f;
+  --accent: #fe8019;
+  --accent2: #b8bb26;
+  --accent3: #fabd2f;
+  --border: #3c3836;
+  --red: #fb4934;
+}

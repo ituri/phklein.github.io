@@ -1,0 +1,14 @@
+/* Rosé Pine */
+:root {
+  color-scheme: dark;
+  --font: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #191724;
+  --fg: #e0def4;
+  --muted: #6e6a86;
+  --heading: #ebbcba;
+  --accent: #eb6f92;
+  --accent2: #9ccfd8;
+  --accent3: #f6c177;
+  --border: #26233a;
+  --red: #eb6f92;
+}

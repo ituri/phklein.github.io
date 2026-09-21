@@ -1,0 +1,16 @@
+/* GitHub Dark */
+:root {
+  color-scheme: dark;
+  --font: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --bg: #0d1117;
+  --fg: #c9d1d9;
+  --muted: #8b949e;
+  --heading: #f0f6fc;
+  --accent: #58a6ff;
+  --accent2: #58a6ff;
+  --accent3: #d29922;
+  --border: #30363d;
+}
+
+[data-layout="plain"] .text { padding: 1.4rem 1.6rem; background: #161b22; border: 1px solid #30363d; border-radius: 8px; }
+.portrait { border: 1px solid #30363d; }

@@ -1,0 +1,20 @@
+/* Night Owl */
+:root {
+  color-scheme: dark;
+  --font: "Fira Code", ui-monospace, Menlo, Consolas, monospace;
+  --bg: #010e1a;
+  --surface: #011627;
+  --chrome: #01111d;
+  --fg: #d6deeb;
+  --muted: #637777;
+  --heading: #82aaff;
+  --accent: #82aaff;
+  --accent2: #addb67;
+  --accent3: #ecc48d;
+  --border: #122d42;
+  --red: #ef5350;
+  --yellow: #ecc48d;
+  --green: #addb67;
+  --status: #5f7e97;
+  --status-fg: #ffffff;
+}
